@@ -1,0 +1,23 @@
+packet br.com.biblioteca.classe;
+public abstract class livro{
+private string titulo;
+private string autor;
+private int ano publicação;
+private boolean disponivel;
+Livro(string titulo,string autor,int ano publicacao){
+this.titulo=titulo;
+this.autor=autor
+this.AnoPublicação=AnoPublicação;
+this.disponivel=true;
+}
+public string get Autor() {
+return.this.autor;
+}
+public int get AnoPublicação() {
+return.this.AnoPublicação;
+public void set titulo(string titulo) {
+this.titulo=titulo;
+}
+public void emprestar() {
+if (this.disponivel) {
+this.disponivel       

@@ -1,2 +1,14 @@
 [InternetShortcut]
 URL=https://drive.google.com/open?id=1EYKkGMguBYAeol17mL537RDzTOm9DAsb&usp=chrome_ntp
+pachet br.com.biblioteca.classe;
+public abstract class Livro{
+private string titulo;
+private string autor;
+private int anoPublicacao;
+private boolean disponível;
+private boolean disponível;
+Livro(stringtítulo,string autor, intanoPublicacao){
+this.titulo=titulo;
+this.autor=autor
+this.anoPubicacao=anoPublicacao;
+this.disponivel      

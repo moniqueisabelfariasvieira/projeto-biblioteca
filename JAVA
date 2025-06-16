@@ -2,22 +2,45 @@ packet br.com.biblioteca.classe;
 public abstract class livro{
 private string titulo;
 private string autor;
-private int ano publicação;
+private int ano publicacao;
 private boolean disponivel;
 Livro(string titulo,string autor,int ano publicacao){
 this.titulo=titulo;
 this.autor=autor
-this.AnoPublicação=AnoPublicação;
+this.AnoPublicacao=AnoPublicacao;
 this.disponivel=true;
 }
 public string get Autor() {
 return.this.autor;
 }
-public int get AnoPublicação() {
-return.this.AnoPublicação;
+public int get AnoPublicacao() {
+return.this.AnoPublicacao;
 public void set titulo(string titulo) {
 this.titulo=titulo;
 }
 public void emprestar() {
 if (this.disponivel) {
-this.disponivel       
+this.disponivel= false 
+System. aut.println(" Emprestado com sucesso");
+}else{
+System.aut.println("Livro indisponível!);
+    }
+{
+Public void devover(){
+if(! this.disponivel){
+this. disponivel=true;
+System.aut.println("Devolvido com sucesso!);
+}else{
+System.aut.println("Erro ao devolver")
+  }
+}
+Public abstract void exibir Detalhes();
+private ArrayList<livro>livrosEmprestados;[=new ArrayList<>();]
+this.livrosEmprestados=new ArrayList<>();
+Public interface ItemBiblioteca{
+boolean estaDisponivel();
+void realizar Empréstimo ();
+void realizar Devolucao();
+void exibir informacoes();
+}
+Public class LivroFisico extends Livro implementar ItemBibliotecas
